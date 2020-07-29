@@ -1,0 +1,115 @@
+*{
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			header{
+				font-size: 40px;
+				text-align: center;
+				margin: 20px;
+				padding: 20px;
+			}
+			section{
+				background-color: gray;		
+				float: left;
+				margin:20px;
+				border: 2px solid black;
+				margin: 20px;
+
+			}
+			#contenedor{
+				position: relative;
+
+			}
+			
+
+
+
+			.titulo{
+				background-color: orange;
+				float: right;
+				margin: 0;
+				padding:5px;
+				border: 2px solid black;
+
+			}
+			article{
+				clear: both;
+				padding-left: 10px;
+				padding-right:  10px;
+			}
+			#pollo{
+				background-color:pink;
+				margin-bottom: 10px; 
+			}
+			#carne{
+				background-color:red; 
+				margin-bottom: 10px;
+			}
+			#sushi{
+				background-color:yellow; 
+				margin-bottom: 10px;
+			}
+
+			@media  (min-width: 992px){
+				#sec1{
+					position: relative;
+					margin: 0;
+					width: 31%;
+					margin: 1%;
+				}
+				#sec2{
+					position: relative;
+					margin: 0;
+					width: 31%;
+					margin: 1%;
+				}
+				#sec3{
+					position: relative;
+					margin: 0;
+					width: 31%;
+					margin: 1%;
+				}
+			}
+
+			@media  (min-width: 768px) and (max-width: 991px){
+				#sec1{
+					position: relative;
+					margin: 0;
+					width: 47%;
+					margin: 1%;
+				}
+				#sec2{
+					position: relative;
+					margin: 0;
+					width: 48%;
+					margin: 1%;
+				}
+				#sec3{
+					position: relative;
+					margin: 0;
+					width: 97%;
+					margin: 1%;
+				}
+			}
+
+			@media  (max-width: 767px){
+				#sec1{
+					position: relative;
+					margin: 0;
+					width: 97%;
+					margin: 1%;
+				}
+				#sec2{
+					position: relative;
+					margin: 0;
+					width: 97%;
+					margin: 1%;
+				}
+				#sec3{
+					position: relative;
+					margin: 0;
+					width: 97%;
+					margin: 1%;
+				}
+			}
